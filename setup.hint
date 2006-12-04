@@ -1,4 +1,4 @@
 category: X11
-requires: cygwin libX11 libXext inputproto
-sdesc: "Xorg X Input library (development)"
+external-source: libXi
+sdesc: "Xorg X Input library (documentation)"
 ldesc: "Xorg X Input library"
