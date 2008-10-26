@@ -1,29 +1,28 @@
 libXi
 ------------------------------------------
-Xorg X Input library
+X.Org X Input library
 
 Runtime requirements:
-  cygwin-1.5.24-2
-  libX11_6-1.1.3-1
-  libXext6-1.0.3-1
+  cygwin-1.5.25-15
+  libX11_6-1.1.5-1
+  libXext6-1.0.4-1
 
 Build requirements:
 (besides corresponding devel packages)
-  cygwin-1.5.24-2
   autoconf2.5-2.61-1
-  automake1.10-1.10-1
-  binutils-20060817-1
-  cygport-0.3.5-1
-  gawk-3.1.5-4
+  automake1.10-1.10.1-1
+  binutils-20080624-2
+  cygport-0.4.2-1
+  gawk-3.1.6-1
   gcc-core-3.4.4-3
-  libtool1.5-1.5.23a-2
+  libtool-2.2.6a-1
   make-3.81-1
-  pkg-config-0.21-1
+  pkg-config-0.23a-2
   sed-4.1.5-2
-  inputproto-1.4.2.1-1
-  xextproto-7.0.2-1
-  xorg-util-macros-1.1.5-1
-  xproto-7.0.10-1
+  inputproto-1.4.4-1
+  xextproto-7.0.3-1
+  xorg-util-macros-1.1.6-1
+  xproto-7.0.14-1
 
 Canonical website:
   http://xorg.freedesktop.org/
@@ -50,11 +49,17 @@ This will create:
 
 Files included in the binary packages:
 
-(libXi)
-  /usr/share/doc/Cygwin/libXi-1.1.3.README
+(libXi6)
+  /usr/bin/cygXi-6.dll
   /usr/share/doc/libXi-1.1.3/COPYING
   /usr/share/doc/libXi-1.1.3/ChangeLog
   /usr/share/doc/libXi-1.1.3/INSTALL
+
+(libXi-devel)
+  /usr/lib/libXi.a
+  /usr/lib/libXi.dll.a
+  /usr/lib/libXi.la
+  /usr/lib/pkgconfig/xi.pc
   /usr/share/man/man3/XAllowDeviceEvents.3.gz
   /usr/share/man/man3/XChangeDeviceControl.3.gz
   /usr/share/man/man3/XChangeDeviceDontPropagateList.3.gz
@@ -93,17 +98,12 @@ Files included in the binary packages:
   /usr/share/man/man3/XUngrabDeviceButton.3.gz
   /usr/share/man/man3/XUngrabDeviceKey.3.gz
 
-(libXi6)
-  /usr/bin/cygXi-6.dll
-
-(libXi-devel)
-  /usr/lib/libXi.dll.a
-  /usr/lib/libXi.la
-  /usr/lib/pkgconfig/xi.pc
-
 ------------------
 
 Port Notes:
+
+----- version 1.1.3-2 -----
+Rebuilt.
 
 ----- version 1.1.3-1 -----
 Version bump for X11R7.3.
