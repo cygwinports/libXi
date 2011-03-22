@@ -1,7 +1,5 @@
 inherit xorg
 
-PKG_NAMES="${PN} ${PN}6 ${PN}-devel"
-PKG_HINTS="setup runtime devel"
-libXi_CONTENTS=	# empty
+PKG_NAMES="${PN}6 ${PN}-devel"
 libXi6_CONTENTS="usr/bin/cygXi-6.dll usr/share/doc/"
 libXi_devel_CONTENTS="usr/include/ usr/lib/ usr/share/man/"
