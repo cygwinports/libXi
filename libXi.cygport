@@ -1,5 +1,12 @@
 inherit xorg
 
+NAME="libXi"
+VERSION=1.6.1
+RELEASE=1
+CATEGORY="X11"
+SUMMARY="X.Org X Input library"
+DESCRIPTION="X.Org X Input library"
+
 PKG_NAMES="${PN}6 ${PN}-devel"
 libXi6_CONTENTS="usr/bin/cygXi-6.dll usr/share/doc/"
 libXi_devel_CONTENTS="usr/include/ usr/lib/ usr/share/man/"

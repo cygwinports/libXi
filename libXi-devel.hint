@@ -1,5 +1,0 @@
-category: X11
-requires: libXi6 libX11-devel libXext-devel inputproto
-external-source: libXi
-sdesc: "X.Org X Input library (development)"
-ldesc: "X.Org X Input library"
